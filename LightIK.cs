@@ -39,7 +39,7 @@ namespace lik
         float targetDistance;
         float adyacent;
 
-        [SerializeField, Tooltip("Editor will solve IK in LateUpdate if this is checked")] bool m_autoUpdateInEditMode;
+        [SerializeField, Tooltip("Use with caution, will modify your transforms: Editor will solve IK in LateUpdate if this is checked")] bool m_autoUpdateInEditMode;
 
         void LateUpdate()
         {
